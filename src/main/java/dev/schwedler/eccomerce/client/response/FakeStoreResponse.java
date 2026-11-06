@@ -1,5 +1,6 @@
-package dev.schwedler.mangahub.client.response;
+package dev.schwedler.eccomerce.client.response;
 
+import java.io.Serializable;
 import java.math.BigDecimal;
 
 public record FakeStoreResponse(
@@ -9,5 +10,5 @@ public record FakeStoreResponse(
         String description,
         String category,
         String image
-) {
+) implements Serializable {
 }

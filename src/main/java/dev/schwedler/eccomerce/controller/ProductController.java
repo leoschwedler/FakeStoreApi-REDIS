@@ -1,7 +1,7 @@
-package dev.schwedler.mangahub.controller;
+package dev.schwedler.eccomerce.controller;
 
-import dev.schwedler.mangahub.client.response.FakeStoreResponse;
-import dev.schwedler.mangahub.service.ProductService;
+import dev.schwedler.eccomerce.client.response.FakeStoreResponse;
+import dev.schwedler.eccomerce.service.ProductService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;

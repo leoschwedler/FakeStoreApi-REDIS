@@ -3,14 +3,14 @@ server:
 
 spring:
   application:
-    name: mangahub
+    name: eccomerce
   config:
     import: "optional:file:.env[.properties]"
 
 
   datasource:
-    url: jdbc:postgresql://${DB_HOST:localhost}:${POSTGRES_PORT:5432}/${POSTGRES_DB:mangahub}
-    username: ${POSTGRES_USER:mangahub}
+    url: jdbc:postgresql://${DB_HOST:localhost}:${POSTGRES_PORT:5432}/${POSTGRES_DB:eccomerce}
+    username: ${POSTGRES_USER:eccomerce}
     password: ${POSTGRES_PASSWORD}
 
   data:
@@ -21,6 +21,8 @@ spring:
 
   cache:
     type: redis
+    redis:
+      time-to-live: 10m
 
   flyway:
     enabled: true

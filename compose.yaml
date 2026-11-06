@@ -14,6 +14,9 @@ services:
   redis:
     image: 'redis:7-alpine'
     command: ['redis-server', '--requirepass', '${REDIS_PASSWORD}']
+    labels:
+      # o service connection do Spring Boot ignora a senha do Redis; usa spring.data.redis.* do application.yaml
+      org.springframework.boot.ignore: 'true'
     ports:
       - '${REDIS_PORT:-6379}:6379'
     volumes:

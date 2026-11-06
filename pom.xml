@@ -9,10 +9,10 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>dev.schwedler</groupId>
-    <artifactId>mangahub</artifactId>
+    <artifactId>eccomerce</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>mangahub</name>
-    <description>mangahub</description>
+    <name>eccomerce</name>
+    <description>eccomerce</description>
     <url/>
     <licenses>
         <license/>

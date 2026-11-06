@@ -1,10 +1,10 @@
-package dev.schwedler.mangahub;
+package dev.schwedler.eccomerce;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class MangahubApplicationTests {
+class EccomerceApplicationTests {
 
     @Test
     void contextLoads() {
